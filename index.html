@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<style>
+    body {
+        background: rgb(44, 44, 44);
+        margin: 0;
+        overflow-x: hidden;
+        text-align: center;
+    }
+
+    .part {
+        width: 100vw;
+        min-height: 100vh;
+    }
+
+    #title {
+        color: white;
+        font-size: 12vmax;
+        font-family: 'Roboto Slab';
+    }
+
+    h2 {
+        color: white;
+        font-size: 8vmax;
+        font-family: 'Syne Mono';
+        margin: 0;
+    }
+
+    #features-title  {
+        height: 10vh;
+    }
+
+    #feature-list, #contact-list {
+        height:80vh;
+        padding: 5vh 2vw 5vh 2vw;
+        margin: 0;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        
+        text-align: left;
+        color: white;
+        font-size: 3vmax;
+        font-family: Grandstander;
+    }
+
+    #contact-list {
+        justify-content: center;
+    }
+    .contact-item {
+        margin: 5vmin;
+    }
+
+    header {
+        padding-top: 25vh;
+    }
+
+    @media (min-aspect-ratio: 3/4) {
+        header {
+            padding-top: 15vh;
+        }
+    }
+
+    img {
+        width: 45%;
+        height: 50%;
+    }
+
+    #pic-1, #pic-3 {
+        margin-left: 0;
+    }
+
+    #pic-2, #pic-4 {
+        margin-right: 0;
+    }
+
+    #pictures {
+        background: black;
+    }
+
+</style>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avani Keyboard Classes</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Grandstander:wght@300&family=Syne+Mono&family=Roboto+Slab&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="part">
+        <h1 id="title">Avani Keyboard Classes</h1>
+    </header>
+    <main class="part" id="pictures">
+        <img src="pic1.jpeg" id="pic-1">
+        <img src="pic2.jpeg" id="pic-2">
+        <img src="pic3.jpeg" id="pic-3">
+        <img src="pic4.jpeg" id="pic-4">
+    </main>
+    <main class="part">
+        <h2 id="features-title">
+            Features
+        </h2>
+        <div class="list" id="feature-list">
+            <span class="feature">* Staff Notation<br></span>
+            <span class="feature">* Western Classical Piano Lessons<br></span>
+            <span class="feature">* Indian Notation<br></span>
+            <span class="feature">* Harmony<br></span>
+            <span class="feature">* Finger Lessons<br></span>
+            <span class="feature">* Theory<br></span>
+            <span class="feature">* Classical Vocal<br></span>
+        </div>
+    </main>
+    <footer class="part">
+        <h2 id="features-title">
+            Contact
+        </h2>
+        <div class="list" id="contact-list">
+            <span class="contact-item">* Name: Mr. Amol Jadhav<br></span>
+            <span class="contact-item">* Email: amoljadhav014@gmail.com<br></span>
+            <span class="contact-item">* Phone: +91 9867317731<br></span>
+        </div>
+    </footer>
+</body>
+</html>
